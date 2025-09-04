@@ -1,0 +1,9 @@
+class Saludo:
+    def _init_(self, mensaje):
+        self.mensaje = mensaje
+
+    def mostrar(self):
+        print(self.mensaje)
+
+saludo = Saludo("Hola Mundo")
+saludo.mostrar()
